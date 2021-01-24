@@ -1,6 +1,6 @@
 ## What is this project about ?
 
-This project allows you to do basic image blending using python code and ml model that you would otherwise do in image editing software like Adobe Photoshop. Basically it will blend two images together using a mask.
+This is a computational photography project that allows you to do basic image blending using python code and ml model that you would otherwise do in image editing software like Adobe Photoshop. Basically it will blend two images together using a mask.
 
 **Before:**
 <br />
