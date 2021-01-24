@@ -11,6 +11,12 @@ Applications of Computational Photography:
 - HDR
 
 
+## How to run the demo ?
+```
+Make sure to install the pre-req's
+python3 main.py
+```
+
 ### Techniques:
 
 1. **Minutature Faking / Syntehtic Tlt -Shift Photography** :
@@ -24,7 +30,7 @@ Applications of Computational Photography:
 
 ### Gradient Domain Blending
 
-    - Image Compositing : Seamless Blending of two or more images together to form a new image that looks real. Can you fool people into believing it's real ? light weight deep fake ?
+   Image Compositing : Seamless Blending of two or more images together to form a new image that looks real. Can you fool people into believing it's real ? light weight deep fake ?
 
         1. Source Image
 
