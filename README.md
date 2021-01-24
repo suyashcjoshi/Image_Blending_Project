@@ -11,19 +11,22 @@ Applications of Computational Photography:
 - HDR
 
 
-## How to run the demo ?
+## How to run the demo ? 
+
+Clone this repo and it comes with an exmple image, you will see the blended image output where penguin is inserted into the ski slopes image after the program execution
+
 ```
-Make sure to install the pre-req's
+Make sure to install the pre-req's via pip - matplotlib, numpy and scipy
 python3 main.py
 ```
 
 ### Techniques:
 
-1. **Minutature Faking / Syntehtic Tlt -Shift Photography** :
+1. **Minutature Faking / Syntehtic Tlt -Shift Photography**
 
 2. **Image Colorization** : Turn old Black & White photos into colorful photos. Reference Paper "Colorful Image Colorization" by Richard Zhang https://richzhang.github.io/colorization
 
-3. **Image Region Removal / Synthesis** :
+3. **Image Region Removal / Synthesis**
 
 
 ## Concepts
@@ -57,7 +60,7 @@ python3 main.py
 Change in gradient / color is usually at the edges of objects.
 
 
-** Optimization** : Optimize the blending of masked region background to match the target region background pixel by pixel. Optimization is rarely perfect so error in color gets evenly distributed inside the mask.
+**Optimization** : Optimize the blending of masked region background to match the target region background pixel by pixel. Optimization is rarely perfect so error in color gets evenly distributed inside the mask.
 
 
 **Can we blend videos using this approach?** Yes, but it involves dealing with Temporal Consistency
