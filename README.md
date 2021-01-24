@@ -1,4 +1,30 @@
-## Introduction to Computational Photography
+## What is this project about ?
+
+This project allows you to do simiple image manipulation using python code and ml model that you would otherwise do in image editing software like Adobe Photoshop. Basically it will blend two images together using a mask.
+
+**Before:**
+![Before Ski Image](https://github.com/suyashjoshi/Image_Blending_Project/blob/main/bg_small.jpeg)
+
+![Before Penguin Image](https://github.com/suyashjoshi/Image_Blending_Project/blob/main/penguin_small.jpeg)
+
+
+**After:**
+![After - Final Blended Image](https://github.com/suyashjoshi/Image_Blending_Project/blob/main/final_blend_output.png)
+
+## How to run the demo ? 
+
+Clone this repo and it comes with an exmple image, you will see the blended image output where penguin is inserted into the ski slopes image after the program execution
+
+```
+Make sure to install the pre-req's via pip - matplotlib, numpy and scipy
+python3 main.py
+```
+
+
+
+## Concepts & Theory
+
+### Introduction to Computational Photography
 
 Computational Photography is a way of editing and manipulating digital images using computational models.
 
@@ -10,26 +36,13 @@ Applications of Computational Photography:
 - Panorama
 - HDR
 
-
-## How to run the demo ? 
-
-Clone this repo and it comes with an exmple image, you will see the blended image output where penguin is inserted into the ski slopes image after the program execution
-
-```
-Make sure to install the pre-req's via pip - matplotlib, numpy and scipy
-python3 main.py
-```
-
-### Techniques:
+### Popular Techniques:
 
 1. **Minutature Faking / Syntehtic Tlt -Shift Photography**
 
 2. **Image Colorization** : Turn old Black & White photos into colorful photos. Reference Paper "Colorful Image Colorization" by Richard Zhang https://richzhang.github.io/colorization
 
 3. **Image Region Removal / Synthesis**
-
-
-## Concepts
 
 ### Gradient Domain Blending
 
