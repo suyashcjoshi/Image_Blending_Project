@@ -3,12 +3,14 @@
 This project allows you to do basic image blending using python code and ml model that you would otherwise do in image editing software like Adobe Photoshop. Basically it will blend two images together using a mask.
 
 **Before:**
-![Before Ski Image](https://github.com/suyashjoshi/Image_Blending_Project/blob/main/bg_small.jpeg)
+<br />
 
+![Before Ski Image](https://github.com/suyashjoshi/Image_Blending_Project/blob/main/bg_small.jpeg)
 ![Before Penguin Image](https://github.com/suyashjoshi/Image_Blending_Project/blob/main/penguin_small.jpeg)
 
 
 **After:**
+<br />
 ![After - Final Blended Image](https://github.com/suyashjoshi/Image_Blending_Project/blob/main/final_blend_output.png)
 
 ## How to run the demo ? 
